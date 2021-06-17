@@ -18,26 +18,6 @@ Widget selectPage() {
   }
 }
 
-  final commands = [
-    'Porcupine Capture',
-    'Porcupine Repeat',
-    'Porcupine Camera',
-    'Porcupine Change Language {language}',
-    'Porcupine Help',
-    'Porcupine Done',
-    'Porcupine Exit',
-  ];
-
-  final desc = [
-    'captures the visual you desire',
-    'repeat the generated caption for the image captured / repeat help instructions',
-    'return to the camera screen',
-    'change the current language. Example: \"Porcupine Change Language English\" ',
-    'navigates to the help page',
-    'to move out of help page',
-    'exits the application'
-  ];
-
 Widget splashScreen = SplashScreenView(
   navigateRoute: selectPage(),
   duration: 3000,
